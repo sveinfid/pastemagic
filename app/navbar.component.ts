@@ -38,6 +38,9 @@ import {ROUTER_DIRECTIVES} from '@angular/router';
         <li>
           <a [routerLink]="['about']" [class.active]="isActive('/about')">About</a>
         </li>
+       <li>
+          <a [routerLink]="['pastemagic']" [class.active]="isActive('/pastemagic')">Pastemagic</a>
+        </li>
       </ul>
     </nav>
   `

@@ -7,3 +7,8 @@ body, html {
   padding: 0;
   margin: 0;
 }
+
+.pastearea {
+  height: 500px;
+  width: 300px;
+}
