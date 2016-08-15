@@ -6,7 +6,7 @@ import {Component, OnInit, OnDestroy} from '@angular/core';
 })
 
 export default class PasteMagicComponent implements OnInit, OnDestroy {
-  public name: string;
+  public pastearea: string;
   constructor() {
     this.pastearea = 'Paste some datetime values here';
   }
